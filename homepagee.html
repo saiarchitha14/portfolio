@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyaankool EdTech</title>
+    <link rel="stylesheet" href="./homepagee.css"> <!-- Link to CSS -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-name">Gyaankool</div>
+        <input type="checkbox" id="toggle-menu">
+        <div class="hamburger" onclick="this.classList.toggle('active');">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="transparent-box">
+        <h1>Welcome to Gyaankool Skill Hub</h1>
+        <p>Join to be the student, network of Skill India, to be the top 1%.</p>
+        <div class="logos">
+            <img src="./Myntra.png" alt="Partner Logo 1" class="hero-logo">
+            <img src="./Paytm.png" alt="Partner Logo 2" class="hero-logo">
+            <img src="./Zomato.png" alt="Partner Logo 3" class="hero-logo">
+        </div>
+        <button id="button_1">Enroll Now</button>
+    </section>
+
+    <!-- Course List Section -->
+    <section class="course-list">
+        <div class="course-box">
+            <img src="./sample courses image .png" alt="Web Development" class="course-image">
+            <span>Web Development</span>
+            <button class="course-button">Learn More</button>
+        </div>
+        <div class="course-box">
+            <img src="./sample courses image .png" alt="Python Programming" class="course-image">
+            <span>Python Programming</span>
+            <button class="course-button">Learn More</button>
+        </div>
+        <div class="course-box">
+            <img src="./sample courses image .png" alt="Data Science" class="course-image">
+            <span>Data Science</span>
+            <button class="course-button">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Partner Companies Section -->
+    <section class="partner-companies">
+        <h2>Our Partner Companies</h2>
+        <div class="partners-wrapper">
+            <div class="logos">
+                <img src="./Zomato.png" alt="Partner 1" class="hero-logo">
+                <img src="./Paytm.png" alt="Partner 2" class="hero-logo">
+                <img src="./Myntra.png" alt="Partner 3" class="hero-logo">
+                <img src="./Paytm.png" alt="Partner 4" class="hero-logo">
+                <img src="./Zomato.png" alt="Partner 5" class="hero-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <p>&copy; 2024 Gyaankool. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

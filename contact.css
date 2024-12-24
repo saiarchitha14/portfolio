@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(202, 184, 184);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(202, 184, 184);
+    border: 2px solid black;
+    /* border-color: rgb(202, 184, 184); */
+    padding: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 2);
+    position: relative;
+}
+.logo-name{
+    font-size: 25px;
+    background-color: whitesmoke;
+    color:black;
+    padding: 1.5%;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links li a{
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    transition: background-color 1s;
+}
+.nav-links li a:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+}
+.contact{
+    margin-left: 450px;
+    top: 200px;
+    padding: 20px;
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: whitesmoke;
+}
